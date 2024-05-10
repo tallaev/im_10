@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vorotov.simulationslab10.HelloController">
+    <children>
+        <Label fx:id="label4" layoutX="50.0" layoutY="237.0" text="label4" />
+        <Label fx:id="label3" layoutX="50.0" layoutY="164.0" text="label3" />
+        <Label fx:id="label1" layoutX="50.0" layoutY="28.0" text="label1" />
+        <Label fx:id="label2" layoutX="50.0" layoutY="96.0" text="label2" />
+        <Label fx:id="label8" layoutX="535.0" layoutY="237.0" text="labl8" />
+        <Label fx:id="label7" layoutX="535.0" layoutY="164.0" text="label7" />
+        <Label fx:id="label6" layoutX="535.0" layoutY="96.0" text="label6" />
+        <Label fx:id="label5" layoutX="535.0" layoutY="28.0" text="label5" />
+        <Label fx:id="label9" layoutX="139.0" layoutY="61.0" />
+        <Label fx:id="label10" layoutX="139.0" layoutY="200.0" />
+        <Label fx:id="label11" layoutX="448.0" layoutY="61.0" />
+        <Label fx:id="label12" layoutX="448.0" layoutY="200.0" />
+        <Label fx:id="label13" layoutX="220.0" layoutY="125.0" />
+        <Label fx:id="label14" layoutX="354.0" layoutY="125.0" />
+        <Label fx:id="winnerTextLabel" layoutX="272.0" layoutY="295.0" text="ПОБЕДИТЕЛЬ" />
+        <Label fx:id="winnerLabel" layoutX="290.0" layoutY="329.0" />
+        <Button layoutX="40.0" layoutY="325.0" mnemonicParsing="false" onAction="#onPlayButtonClick" text="Play" />
+        <Label fx:id="score1Label" layoutX="434.0" layoutY="338.0" />
+        <Label fx:id="score2Label" layoutX="534.0" layoutY="338.0" />
+        <Label layoutX="487.0" layoutY="295.0" text="СЧЕТ" />
+      <Label fx:id="team1Label" layoutX="433.0" layoutY="362.0" />
+      <Label fx:id="team2Label" layoutX="533.0" layoutY="362.0" />
+    </children>
+</AnchorPane>
